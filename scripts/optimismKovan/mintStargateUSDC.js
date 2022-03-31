@@ -1,5 +1,5 @@
 const { ethers } = require("hardhat");
-const { stargateInfo } = require("../data/chainInfo.js");
+const { stargateInfo } = require("../data/stargateInfo.js");
 
 const main = async () => {
   const [account] = await ethers.getSigners();

@@ -5,7 +5,7 @@ const { ethers } = require("hardhat");
 */
 
 const deploy = async () => {
-  const factory = await ethers.getContractFactory("MultiReceiverSG");
+  const factory = await ethers.getContractFactory("MultiReceiverSGV2");
   const contract = await factory.deploy();
   await contract.deployed();
   console.log("MultiReceiverSG Address:", contract.address);

@@ -4,6 +4,7 @@ const stargateInfo = {
   mumbai: { chainId: 10009, router: "0x817436a076060D158204d955E5403b6Ed0A5fac0", USDC: "0x742DfA5Aa70a8212857966D491D67B09Ce7D6ec7" },
   polygon: { chainId: 9, router: "0x45A01E4e04F14f7A4a6702c74187c5F6222033cd" },
   optimism: { chainId: 11, router: "0xB0D502E938ed5f4df2E681fE6E419ff29631d62b" },
+  avax: { chainId: 6, router: "0x45A01E4e04F14f7A4a6702c74187c5F6222033cd" },
 };
 
 exports.stargateInfo = stargateInfo;
