@@ -18,3 +18,7 @@
 - Executes logic based on which payload is sent and if it's from sg or lz
 - Updates state accordingly for testing purposes
 - Live and verified on Rinkeby at https://rinkeby.etherscan.io/address/0x78406477bc8bB7150d12A1Fa20BAF1982E46d84d#code
+
+## Local Receiver
+
+- Example of using a low level call to execute arbitrary payloads received by the contract
